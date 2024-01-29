@@ -1,0 +1,73 @@
+.subscribe {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+  }
+  .subscribe .text-img {
+    position: relative;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 5px;
+    margin-bottom: 12px;
+  
+  }
+  
+  .subscribe .text-img-h1 {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 3px;
+    flex-wrap: wrap;
+  }
+  
+  .subscribe .container {
+    background-image: url(../ClassProject/images/Header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .subscribe .subscribe-heading{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  @media screen and (max-width:550px) {
+    .subscribe .text-img{
+      margin-top: 9px;
+    }
+  }
+  
+  .subscribe .subscribe-left-section {
+    margin-top: 60px;
+  }
+  
+  .subscribe .subscribe-left-section {
+    margin-left: 60px;
+    margin-bottom: 20px;
+  }
+  .email-part{
+    background-color: white;
+    align-items: center;
+    display: flex;
+    padding: 7px;
+    border-radius: 4px;
+    margin-bottom: 60px;
+  }
+  input#email{
+    border: none;
+    outline: none;
+  }
+  input#email:focus{
+    box-shadow: none;
+  }
+  
+  .subscribe-img {
+    position: absolute;
+    bottom: 0;
+    right: 36px;
+  
+  }
+  @media screen and (max-width:1199px) {
+     .subscribe-img{
+      display: none;
+     }
+  }
