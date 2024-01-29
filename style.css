@@ -1,0 +1,114 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    color: #4D4D4D ;
+}
+
+/* ---- General css start ---- */
+
+h1{
+    font-size: 63px;
+    color: #4D4D4D;
+    line-height: 76px;
+    font-weight: 600;
+}
+
+h2,.Comunity-management h2{
+    font-size: 38px;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 28px;
+}
+
+.btn{
+    background-color: #4CAF4F;
+    padding: 10px 15px;
+}
+
+p{
+    color: #717171;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.banner-section, header{
+    background-color: #f5f7f4;
+}
+
+span{
+    color: #4CAF4F;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn{
+    border:0;
+    padding: 13px 35px;
+}
+
+
+
+
+
+
+/* ---- Community css start ---- */
+
+.Comunity-management .img-box-outer{
+    height: 100%;
+    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.20);
+    transition: all .4s linear;
+    
+}
+
+.Comunity-management .img-box-outer:hover{
+    transform: translateY(-20px);
+    border: 2px solid #4CAF4F;
+    border-radius: 8px;
+}
+
+.Comunity-management img{
+    width: 48px;
+}
+
+.Comunity-management .img-text{
+    padding: 12px;
+}
+
+.Comunity-management h2{
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.Comunity-management p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+/* ---- End community css ---- */
+
+
+/* ---- experience section css start ---- */
+
+.experience h3{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.experience p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+
+}
+
+/* ---- End experience section css ---- */
