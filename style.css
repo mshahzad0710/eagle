@@ -112,3 +112,79 @@ a{
 }
 
 /* ---- End experience section css ---- */
+@font-face {
+    font-family:"Airbnb Cereal app";
+    src: url(fonts/AirbnbCereal_W_Md.otf)
+}
+
+
+body{
+    font-family:"Airbnb Cereal app";
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 28px;
+}
+/* ----------------------------- General css */
+h1{
+    font-size: 50px;
+    color: #060640;
+    font-weight: 700;
+}
+h2{
+    font-size: 45px;
+    color: #060640;
+    font-weight: 700;
+
+}
+h3, header h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: #060640;
+}
+h4{
+    font-size: 18px;
+    color: white;
+}
+li{
+    color: #9090a7;
+}
+p, a{
+    color: #9090a7;
+}
+.btn{
+    background-color: #060640;
+    color: #fff;
+    border: 0px;
+    padding: 15px 20px;
+
+}
+/* --------------------------- Footer css */
+footer img{
+    
+    width: 60px;
+    background: saddlebrown;
+    border-radius: 50%;
+}
+footer{
+    background-color: #060640;
+    padding: 60px;
+}
+footer .fa-brands{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    padding: 9px 10px;
+    margin-right: 10px;
+    border: 1px solid #9090a7
+}
+.twiter-bg .fa-twitter:hover{
+    color: #00e5cc;
+    border-color: #00e5cc;
+}
+.foooter-end{
+    background-color: #000020;
+}
+.foooter-end span{
+    color: #00e5cc;
+}
+/* --------------------------- Footer css */
