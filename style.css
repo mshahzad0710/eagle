@@ -1,0 +1,57 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: normal;
+    color: #8a8a8c;
+    line-height: 20px;
+}
+/* --------------------
+general css
+-------------------- */
+h1{
+    font-size: 55px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 16px;
+}
+h1,h2,h3{
+    color: #4d4d4d;
+}
+span{
+    color: #4CAF4F;
+}
+
+
+
+header a{
+    color: green;
+    text-decoration: none;
+    font-size: 16px;
+padding-right: 30px;
+}
+.navbar-brand{
+    color: black;
+}
+.nav-item :hover{
+    color: tomato;
+}
+.nav-item{
+    padding-right: 15px;
+    color: var(--Text-Gray-900, #18191F);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+.navbar-expand-lg{
+    margin-top: 10px;
+ background: var(--Neutral-Silver, #F5F7FA);
+ justify-content: space-between;
+}
+.btn{
+   background-color: #4CAF4F;
+}
